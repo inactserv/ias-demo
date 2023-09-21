@@ -12,3 +12,9 @@
 	 - Go to Live Sass Compile > Settings: Formats
 	 - Click Edit in settings.json
 	 - Update settings "savePath": "/assists/css"
+
+## How to solve GitHub permissions denied error
+
+ - Go to Credential Manager in window settings
+ - Delete current credential related to github
+ - Retry with push command and set new credential
