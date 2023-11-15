@@ -1,0 +1,15 @@
+$font-size-base: 1.125rem;
+$custom-font-family: 'Urbanist';
+
+body {
+  font-family: $custom-font-family, sans-serif !important;
+}
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1280px,
+  xxl: 1400px
+);

@@ -1,0 +1,156 @@
+.h1{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+    text-align: justify;
+}
+
+.head-image{
+
+    width: 100%;
+    aspect-ratio: 1120 / 400;
+    object-fit: cover;
+    object-position: 0px 10%;
+}
+
+.arrow-image{
+    aspect-ratio: 457/300;
+    width: 100%;
+}
+
+.button-div{
+    display: flex;
+}
+
+button{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.members{
+    .member{
+        .member-image{
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            width:100%;
+        }
+        .h3{
+            font-family: 'Inter', sans-serif;
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+}
+
+button{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+    border-radius: 100px;
+    border: none;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+@media(min-width: 768px){
+    .container{
+        margin-top: 40px;
+        margin-bottom:120px;
+    }
+    .h1{
+        font-size: 40px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+    .Para-1{
+        margin-top: 40px;
+    }
+
+    .Para-2{
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+
+    .button-div{
+        margin-top: 80px;
+        margin-bottom: 64px;
+    }
+
+    button{
+        width: 160px;
+        height: 52px;
+        font-size: 20px;
+    }
+    .members{
+        .member{
+            .h3{
+                font-size:24px;
+                margin-top:24px;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media(max-width: 767.99px){
+
+    .container{
+        margin-top: 16px;
+        margin-bottom:80px;
+    }
+
+    .h1{
+        font-size: 32px;
+    }
+    p{
+        font-size: 18px;
+    }
+
+    .Para-1{
+        margin-top: 24px;
+    }
+
+    .Para-2{
+        margin-top: 80px;
+        margin-bottom: 80px;
+        .MV{
+            margin-top: 24px;
+        }
+    }
+
+    .button-div{
+        margin-top: 32px;
+        margin-bottom: 24px;
+        justify-content: center;
+    }
+
+    button{
+        width: 122px;
+        height: 36px;
+        font-size: 16px;
+    }
+    .members{
+        .member{
+            .h3{
+                font-size: 22px;
+                margin-top: 8px;
+            }
+
+            p{
+                font-size: 14px;
+            }
+
+        }
+    }
+}

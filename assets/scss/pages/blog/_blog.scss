@@ -1,0 +1,43 @@
+
+.navbox {
+    border-radius: 50px;
+    background-color: #E3E3E3;
+    color: #031332;
+    border: none;
+}
+
+.navbox.active, .navbox:hover {
+    background-color: #031332;
+    color: #E3E3E3;
+}
+
+.col-md-12 .network-image {
+    max-height: 400px;
+    width: 100%;
+    height: auto;
+}
+
+.readmore {
+    background-color: #2871FF;
+}
+
+.custom .pagination .page-link.active {
+    background-color: #031332;
+}
+
+.page-link.active {
+    background-color: #031332;
+    color: #E3E3E3;
+    border: none;
+}
+
+.page-link {
+    background-color: #E3E3E3;
+    color: #031332;
+    border: none;
+}
+
+.prevnext {
+    background-color: #fff;
+    border: none;
+}

@@ -1,0 +1,36 @@
+.projects{
+    margin-bottom: 80px;
+
+    h2{
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    img{
+        aspect-ratio: 552/300;
+        object-fit: cover;
+        object-position: 0px 100%;
+    }
+
+    .team-projects{
+        display: flex;
+        align-items: center;
+
+        
+        p{
+            flex-grow: 1;
+            text-align: end;
+        }
+
+        a{
+            color: #2871FF;
+        }
+
+        img{
+            width: 24px;
+            height: 24px;
+            margin-top: -10px;
+        }
+    }
+}
+

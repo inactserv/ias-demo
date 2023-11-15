@@ -1,9 +1,20 @@
-@import "core/main";
+// @import "core/main";
 /**
 Plugins
  */
- @import "plugins/datatable";
+ @import "../scss/node_modules/bootstrap/scss/bootstrap.scss";
+ @import "../scss/pages/variable-overwrite";
  /**
 Pages
  */
- @import "pages/home/home";
+@import "../scss/pages/header";
+@import "../scss/pages/footer";
+@import "../scss/pages/about-us/aboutUs";
+@import "../scss/pages/blog/blog";
+@import "../scss/pages/contact-us/contact-us";
+@import "../scss/pages/home/home";
+@import "../scss/pages/member/member-details";
+@import "../scss/pages/service/service-details";
+@import "../scss/pages/service/service";
+@import "../scss/pages/work/work-details";
+@import "../scss/pages/work/work";

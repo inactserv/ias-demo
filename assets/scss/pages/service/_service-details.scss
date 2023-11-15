@@ -1,0 +1,57 @@
+// @mixin responsive-image-container {
+//     position: relative;
+//     display: flex;
+//     align-items: flex-start;
+//     overflow: hidden;
+// }
+
+// .service-detail-image-container {
+//     // height: 18.75rem;
+//     // // width: auto; // Allow width to adjust proportionally
+//     // // display: block; // Remove any default inline styles
+//     // // max-width: 100%; // Ensure the image doesn't exceed its original size
+//     width: 28.563rem;
+//     height: 18.75rem;
+//     @include responsive-image-container();
+// }
+
+// .our-talented-developers-image-container {
+//     width: 268px;
+//     height: 268px;
+//     @include responsive-image-container();
+// }
+
+// .our-work-image{
+//     width:100%;
+//     aspect-ratio: 552/300;
+//     object-fit: cover;
+//     object-position: 0px 10%;
+// }
+
+.service-detail-image {
+    width: 100%;
+    aspect-ratio: 457/300;
+    object-fit: cover;
+    object-position: 0px 10%;
+}
+
+.our-work-image {
+    width: 100%;
+    aspect-ratio: 552/300;
+    object-fit: cover;
+    object-position: 0px 30%;
+}
+
+.our-talented-developer-image {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: 0px 0%;
+}
+
+.our-talented-developer-image-1 {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: 0px 12%;
+}

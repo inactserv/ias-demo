@@ -1,0 +1,52 @@
+.btn-primary {
+    background-color: $orange !important;
+    border: none !important;
+    border-radius: 8px !important;
+}
+
+.form-control[type="search"] {
+    border-radius: 100px;
+}
+
+.In {
+    color: $dark-text-emphasis;
+}
+
+.Act {
+    color: $orange;
+}
+
+.navbar-brand {
+    align-items: center;
+
+    span {
+        font-size: 32px;
+        font-weight: 700;
+    }
+}
+
+.nav-item {
+    .nav-link {
+        color: $dark-text-emphasis !important;
+    }
+}
+
+.navbar-nav>li {
+    float: left;
+    position: relative;
+}
+
+.navbar-light .navbar-nav :active a::after {
+    border-bottom: 2px solid $dark-text-emphasis;
+    bottom: -10px;
+    content: " ";
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+.navbar-nav {
+    .btn {
+        margin-left: 30px !important;
+    }
+}
