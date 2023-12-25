@@ -11,7 +11,7 @@
 	 - Find Live Sass Compiler
 	 - Go to Live Sass Compile > Settings: Formats
 	 - Click Edit in settings.json
-	 - Update settings "savePath": "/assists/css"
+	 - Update settings "savePath": "/assets/css/main.css"
 
 ## How to solve GitHub permissions denied error
 
