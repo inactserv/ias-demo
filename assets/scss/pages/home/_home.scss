@@ -1,273 +1,116 @@
-@import "homeConfig";
-.home {
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 
-  background-image: url("/images/Background.png");
-  background-size: cover;
+.home-h1{
+  font-size: 64px;
+}
+
+.home-text{
+  width: 100%;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.bg-container {
   position: relative;
   z-index: 1;
-
-  .hero {
-    margin: auto;
-    text-align: center;
-    padding-top: 10%;
-
-    h2 {
-      font-family: $heading-font-family;
-      font-weight: map-get($font-weight, 700);
-      font-size: map-get($font-size, heading1);
-      color: $white-color;
-      margin-bottom: 48px;
-    }
-    p {
-      font-family: $text-font-family;
-      font-weight: map-get($font-weight, 700);
-      font-size: map-get($font-size, text1);
-      color: $white-color;
-    }
-  }
 }
 
-.about-us {
-  padding: 80px;
-
-  .container {
-    display: flex;
-    align-items: center;
-    margin-bottom: 80px;
-  }
-
-  .about-us-image,
-  .about-us-image1 {
-    background-color: black;
-    width: 45%;
-    height: 300px;
-    border-radius: 16px;
-  }
-
-  .about-us-image {
-    margin-right: 50px;
-  }
-
-  .about-us-image1 {
-    margin-left: 70px;
-  }
-
-  .about-us-content,
-  .about-us-content1 {
-    flex: 1;
-    padding-top: 10px;
-
-    h2 {
-      font-family: $heading-font-family;
-      font-weight: map-get($font-weight, 700);
-      font-size: map-get($font-size, heading2);
-      color: $black-color;
-      margin: 0;
-      margin-bottom: 30px;
-    }
-  }
-
-  p {
-    font-family: $text-font-family;
-    font-weight: map-get($font-weight, 500);
-    font-size: map-get($font-size, text2);
-    color: $black-color;
-    margin: 0;
-    margin-bottom: 30px;
-  }
-
-  a {
-    font-family: $text-font-family;
-    font-weight: map-get($font-weight, 400);
-    font-size: map-get($font-size, text2);
-    color: $blue-color;
-  }
-
-  .about-us-content {
-    margin-left: 50px;
-  }
-
-  .about-us-content1 {
-    margin-right: 70px;
-  }
+.bg-img {
+  width: 100%;
+  height: auto;
 }
 
-.h2 {
-  padding: 0 80px;
-  font-family: $heading-font-family;
-  font-weight: map-get($font-weight, 700);
-  font-size: map-get($font-size, heading2);
-  color: $black-color;
+.navbar-over-bg {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 2; 
 }
 
-.h4 {
-  font-family: $heading-font-family;
-  font-weight: map-get($font-weight, 600);
-  font-size: map-get($font-size, heading5);
-  color: $orange-color;
-}
-.our-service {
-  padding: 40px 40px;
-  display: flex;
+.home-btn-primary {
+  background-color: $orange !important;
+  border: none !important;
+  border-radius: 8px !important;
 }
 
-.service {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
+.home-form-control[type="search"] {
+  border-radius: 100px;
+}
+
+.home-In {
+  color: $white;
+}
+
+.Act {
+  color: $orange;
+}
+
+.navbar-brand {
   align-items: center;
-}
 
-.service-image {
-  width: 268px;
-  height: 268px;
-  background: black;
-  border-radius: 16px;
-}
-
-.service-text {
-  margin-top: auto;
-  padding: 35px;
-}
-
-.service-text h3 {
-  margin: 0;
-  font-family: $heading-font-family;
-  font-weight: map-get($font-weight, 600);
-  font-size: map-get($font-size, heading4);
-  color: $black-color;
-}
-
-.service-text p {
-  margin: 8px 0 0;
-  font-family: $text-font-family;
-  font-weight: map-get($font-weight, 500);
-  font-size: map-get($font-size, text2);
-  color: $black-color;
-}
-
-.our-work {
-  h2 {
-    font-family: $heading-font-family;
-    font-weight: map-get($font-weight, 700);
-    font-size: map-get($font-size, heading2);
-    color: $black-color;
-    margin-bottom: 24px;
-  }
-
-  p {
-    font-family: $text-font-family;
-    font-weight: map-get($font-weight, 500);
-    font-size: map-get($font-size, text2);
-    color: $black-color;
-    margin-bottom: -20px;
-  }
-  .our-work-header {
-    padding-top: 100px;
-    padding-bottom: 0;
-    padding: 80px;
-
-    a {
-      float: right;
-      padding-right: 10px;
-      color: $blue-color;
-    }
-  }
-
-  .work-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-
-  .work {
-    display: flex;
-    flex-direction: column;
-    padding: 0 95px;
-
-    .work-img {
-      width: 552px;
-      height: 300px;
-      background: black;
-      border-radius: 16px;
-    }
-
-    .work-text {
-      padding: 10px 0;
-
-      h3 {
-        font-family: $heading-font-family;
-        font-weight: map-get($font-weight, 600);
-        font-size: map-get($font-size, heading3);
-        color: $black-color;
-      }
-      p {
-        font-family: $text-font-family;
-        font-weight: map-get($font-weight, 500);
-        font-size: map-get($font-size, text1);
-        color: $black-color;
-      }
-    }
-  }
-}
-
-@mixin responsive_img {
-  position: relative;
-  display: flex;
-  align-items: flex-start;
-  overflow: hidden;
-  border-radius: 16px;
-
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-}
-
-@mixin our_work_mixin {
-  flex-basis: 50%;
-
-  .img-col-2 {
-    width: 552px;
-    height: 300px;
-
-    @include responsive_img();
-  }
-
-  .para-col-2 {
-    h4 {
-      margin-top: 16px;
+  span {
       font-size: 32px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: normal;
-      width: 552px;
-      height: 39px;
-    }
-
-    p {
-      font-size: 20px;
-      font-style: normal;
-      font-weight: 500;
-      width: 552px;
-      line-height: 28px;
-    }
+      font-weight: 700;
   }
 }
 
-.our_work {
-  display: flex;
-  padding: 24px 80px;
-  justify-content: space-between;
-  flex: 1;
-  gap: 16px;
-  margin-bottom: 120px;
-
-  .first {
-    @include our_work_mixin();
-  }
-
-  .second {
-    @include our_work_mixin();
+.home-nav-item {
+  .nav-link {
+      color: $white !important;
   }
 }
+
+.navbar-nav>li {
+  float: left;
+  position: relative;
+}
+
+.navbar-light .navbar-nav :active a::after {
+  border-bottom: 2px solid $dark-text-emphasis;
+  bottom: -10px;
+  content: " ";
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+.contact{
+  color: $white;
+}
+
+.home-form-control {
+  background-color: transparent; 
+  border: 1px solid $white; 
+  color: $white;
+}
+
+::placeholder{
+  color: $white;
+  padding: 10px;
+}
+
+
+.home-form-inline {
+  position: absolute;
+  z-index: 2; 
+  left: 170px;
+}
+
+.overlay-text {
+  color: $white; 
+}
+
+.ourservice-text{
+  color: $orange;
+}
+
+.customer-img{
+  width: 100%;
+}
+
