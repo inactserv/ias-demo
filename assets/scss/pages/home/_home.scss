@@ -4,107 +4,18 @@ body, html {
   height: 100%;
 }
 
-.home-h1{
-  font-size: 64px;
+#intro {
+  background-image: url(/assets/images/home-background.png);
+  height: 100vh;
 }
 
-.home-text{
-  width: 100%;
+/* Height for devices larger than 576px */
+
+
+.navbar .nav-link {
+  color: $white !important;
 }
 
-.position-relative {
-  position: relative;
-}
-
-.bg-container {
-  position: relative;
-  z-index: 1;
-}
-
-.bg-img {
-  width: 100%;
-  height: auto;
-}
-
-.navbar-over-bg {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  z-index: 2; 
-}
-
-.home-btn-primary {
-  background-color: $orange !important;
-  border: none !important;
-  border-radius: 8px !important;
-}
-
-.home-form-control[type="search"] {
-  border-radius: 100px;
-}
-
-.home-In {
-  color: $white;
-}
-
-.Act {
-  color: $orange;
-}
-
-.navbar-brand {
-  align-items: center;
-
-  span {
-      font-size: 32px;
-      font-weight: 700;
-  }
-}
-
-.home-nav-item {
-  .nav-link {
-      color: $white !important;
-  }
-}
-
-.navbar-nav>li {
-  float: left;
-  position: relative;
-}
-
-.navbar-light .navbar-nav :active a::after {
-  border-bottom: 2px solid $dark-text-emphasis;
-  bottom: -10px;
-  content: " ";
-  left: 0;
-  position: absolute;
-  right: 0;
-}
-
-.contact{
-  color: $white;
-}
-
-.home-form-control {
-  background-color: transparent; 
-  border: 1px solid $white; 
-  color: $white;
-}
-
-::placeholder{
-  color: $white;
-  padding: 10px;
-}
-
-
-.home-form-inline {
-  position: absolute;
-  z-index: 2; 
-  left: 170px;
-}
-
-.overlay-text {
-  color: $white; 
-}
 
 .ourservice-text{
   color: $orange;
