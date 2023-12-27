@@ -1,0 +1,12 @@
+.work-detail-image{
+    width:100%;
+    object-fit: cover;
+    object-position: 0px 10%;
+}
+
+.work-detail-image-with-ratio{
+    width:100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    object-position: 0px 10%;
+}
