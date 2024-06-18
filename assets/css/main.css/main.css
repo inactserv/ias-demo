@@ -12271,94 +12271,20 @@ button:hover {
 * {
   margin: 0;
   padding: 0;
-  color: #495057;
 }
 
 .main {
   background-color: #fff;
 }
 
-.title {
-  width: 456px;
-  height: 190px;
-  margin-bottom: 48px;
-  margin-top: 40px;
-}
-.title .header {
-  width: 297px;
-  height: 98px;
-  margin-bottom: 8px;
-}
-.title .header h1, .title .header .h1 {
-  color: #495057;
-  font-size: 2.5rem;
-  font-weight: 700;
-  text-align: start;
-}
-.title .info {
-  height: 84px;
-  width: 100%;
-}
-.title .info p {
-  color: #495057;
-  font-size: 1.125rem;
-  font-weight: 600;
-}
-
-.content {
-  color: #495057;
-  height: 100%;
-  margin-bottom: 120px;
-  justify-content: space-between;
-  -moz-column-gap: 56px;
-       column-gap: 56px;
-}
-
-.form {
-  width: 456px; /*456*/
-  margin-bottom: 56px;
-}
-.form .form-control {
-  width: 100%;
-  height: 60px;
-  margin-bottom: 24px;
-  border: #495057 solid 1px;
-}
-.form .message {
-  height: 180px;
-  margin-bottom: 32px;
-}
-.form button {
-  color: #fff;
-  width: 100%;
-  height: 58.4px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 700;
+.submit-btn {
+  background-color: #0d6efd !important;
 }
 
 .information {
-  width: 624px; /*624*/
   background-color: #031332;
-  margin-bottom: 56px;
   text-align: justify;
-  line-height: 25px;
   border-radius: 24px;
-}
-.information .map {
-  margin: 32px;
-}
-.information .map .map-image {
-  margin: auto;
-  width: 576px;
-  max-height: 280px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.information .info {
-  width: 560px;
-  height: 136px;
-  margin: 40px 32px 32px 32px;
 }
 .information .info div {
   width: 100%;
@@ -12368,19 +12294,6 @@ button:hover {
 .information .info div .icon {
   width: 32px;
   height: 32px;
-}
-.information .info div p {
-  width: 512px;
-  height: 27px;
-  color: #fff;
-  margin-bottom: 20px;
-  margin-left: 24px;
-  font-size: 22px;
-  font-weight: 600;
-}
-.information .info div.phone img {
-  margin-left: 7px;
-  margin-right: 7px;
 }
 
 body, html {
@@ -12488,6 +12401,23 @@ body, html {
      object-fit: cover;
   -o-object-position: 0px 12%;
      object-position: 0px 12%;
+}
+
+.work-detail-image {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0px 10%;
+     object-position: 0px 10%;
+}
+
+.work-detail-image-with-ratio {
+  width: 100%;
+  aspect-ratio: 16/9;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0px 10%;
+     object-position: 0px 10%;
 }
 
 .navbox {
