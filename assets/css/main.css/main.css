@@ -12289,7 +12289,7 @@ button:hover {
   height: 98px;
   margin-bottom: 8px;
 }
-.title .header h1, .title .header .h1 {
+.title .header .header-h1 {
   color: #495057;
   font-size: 2.5rem;
   font-weight: 700;
@@ -12299,7 +12299,7 @@ button:hover {
   height: 84px;
   width: 100%;
 }
-.title .info p {
+.title .info .info-p {
   color: #495057;
   font-size: 1.125rem;
   font-weight: 600;
@@ -12488,6 +12488,64 @@ body, html {
      object-fit: cover;
   -o-object-position: 0px 12%;
      object-position: 0px 12%;
+}
+
+.bg-dark-blue {
+  background-color: #031633 !important;
+}
+
+.card-image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0px 0%;
+     object-position: 0px 0%;
+}
+
+.card-btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.input-group .form-control {
+  background-color: transparent;
+  color: white;
+}
+
+.input-group .form-control::-moz-placeholder {
+  color: white;
+  opacity: 1; /* Override default opacity */
+}
+
+.input-group .form-control::placeholder {
+  color: white;
+  opacity: 1; /* Override default opacity */
+}
+
+.input-group .btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 1;
+  border-bottom-right-radius: 1;
+  background-color: #fd7e14;
+}
+
+.work-detail-image {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0px 10%;
+     object-position: 0px 10%;
+}
+
+.work-detail-image-with-ratio {
+  width: 100%;
+  aspect-ratio: 16/9;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0px 10%;
+     object-position: 0px 10%;
 }
 
 .navbox {
