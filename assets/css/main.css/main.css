@@ -12422,6 +12422,23 @@ body, html {
      object-position: 0px 10%;
 }
 
+.work-detail-image {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0px 10%;
+     object-position: 0px 10%;
+}
+
+.work-detail-image-with-ratio {
+  width: 100%;
+  aspect-ratio: 16/9;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0px 10%;
+     object-position: 0px 10%;
+}
+
 .navbox {
   border-radius: 50px;
   background-color: #E3E3E3;
