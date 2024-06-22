@@ -1,9 +1,25 @@
+.button-wrapper {
+    overflow-x: auto;  
+    overflow-y:hidden;
+    white-space: nowrap; 
+    width: 100%; 
+    -ms-overflow-style: none;  //Bing
+    scrollbar-width: none;  //Firefox
+}
+
+.button-wrapper::-webkit-scrollbar {
+    display: none;  //Safari, Chrome
+}
 
 .navbox {
+    display: flex;           
+    align-items: center;     
+    justify-content: center;
     border-radius: 50px;
     background-color: #E3E3E3;
     color: #031332;
     border: none;
+    flex: 0 0 auto;
 }
 
 .navbox.active, .navbox:hover {
