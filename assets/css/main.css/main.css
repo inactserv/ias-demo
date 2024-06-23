@@ -12289,7 +12289,7 @@ button:hover {
   height: 98px;
   margin-bottom: 8px;
 }
-.title .header h1, .title .header .h1 {
+.title .header .header-h1 {
   color: #495057;
   font-size: 2.5rem;
   font-weight: 700;
@@ -12299,7 +12299,7 @@ button:hover {
   height: 84px;
   width: 100%;
 }
-.title .info p {
+.title .info .info-p {
   color: #495057;
   font-size: 1.125rem;
   font-weight: 600;
@@ -12488,6 +12488,58 @@ body, html {
      object-fit: cover;
   -o-object-position: 0px 12%;
      object-position: 0px 12%;
+}
+
+.service-detail-image {
+  width: 100%;
+  aspect-ratio: 457/300;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0px 10%;
+     object-position: 0px 10%;
+}
+
+.viewmore {
+  background-color: #2871FF;
+}
+
+.headerNumber {
+  color: #E3E3E3;
+}
+
+.packageBox {
+  height: 600px;
+}
+
+.card-image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0px 0%;
+     object-position: 0px 0%;
+}
+
+.card-btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.work-detail-image {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0px 10%;
+     object-position: 0px 10%;
+}
+
+.work-detail-image-with-ratio {
+  width: 100%;
+  aspect-ratio: 16/9;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0px 10%;
+     object-position: 0px 10%;
 }
 
 .navbox {
