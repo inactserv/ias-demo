@@ -22,6 +22,11 @@ body, html {
   ::placeholder{
     color: $white !important;
   }
+
+  :focus{
+    background-color: transparent;
+    color: $white;
+  }
 }
 
 .nav-link{

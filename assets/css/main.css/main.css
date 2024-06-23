@@ -12410,6 +12410,10 @@ body, html {
 .search ::placeholder {
   color: #fff !important;
 }
+.search :focus {
+  background-color: transparent;
+  color: #fff;
+}
 
 .nav-link {
   color: #fff !important;
