@@ -22,6 +22,22 @@ body, html {
   ::placeholder{
     color: $white !important;
   }
+
+  :focus{
+    background-color: transparent;
+    color: $white;
+  }
+}
+
+.nav-link{
+  color: $white !important;
+}
+
+.nav-link.active,
+.nav-link:hover{
+  text-decoration-line: underline;
+  text-underline-offset: 7px;
+
 }
 
 .home-text{
