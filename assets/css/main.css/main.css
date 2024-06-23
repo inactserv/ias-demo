@@ -12318,7 +12318,7 @@ body, html {
 .hero {
   background-image: url("/assets/images/home-background.png");
   width: 100%;
-  height: 100vh;
+  height: 660px;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -12335,6 +12335,20 @@ body, html {
 }
 .search ::placeholder {
   color: #fff !important;
+}
+.search :focus {
+  background-color: transparent;
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  text-decoration-line: underline;
+  text-underline-offset: 7px;
 }
 
 .home-text {
