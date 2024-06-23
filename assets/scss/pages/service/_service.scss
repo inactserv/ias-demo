@@ -28,3 +28,21 @@
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
+
+.input-group .form-control {
+    background-color: transparent;
+    color: white;
+}
+
+.input-group .form-control::placeholder {
+    color: white;
+    opacity: 1; /* Override default opacity */
+  }
+
+.input-group .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 1;
+    border-bottom-right-radius: 1;
+    background-color: $orange;
+}
