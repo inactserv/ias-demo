@@ -12272,6 +12272,7 @@ button:hover {
   background-color: #fff;
 }
 
+
 .submit-btn {
   background-color: #0d6efd !important;
 }
@@ -12396,6 +12397,41 @@ body, html {
      object-fit: cover;
   -o-object-position: 0px 12%;
      object-position: 0px 12%;
+}
+
+.service-detail-image {
+  width: 100%;
+  aspect-ratio: 457/300;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0px 10%;
+     object-position: 0px 10%;
+}
+
+.viewmore {
+  background-color: #2871FF;
+}
+
+.headerNumber {
+  color: #E3E3E3;
+}
+
+.packageBox {
+  height: 600px;
+}
+
+.card-image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0px 0%;
+     object-position: 0px 0%;
+}
+
+.card-btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .work-detail-image {
