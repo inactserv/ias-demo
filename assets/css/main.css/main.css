@@ -12458,7 +12458,78 @@ body, html {
   border-bottom-left-radius: 0;
   border-top-right-radius: 1;
   border-bottom-right-radius: 1;
+  min-height: 3.5rem;
   background-color: #fd7e14;
+}
+
+.card-input-group {
+  max-width: 37.5rem;
+}
+
+.service-detail-image {
+  width: 100%;
+  aspect-ratio: 457/300;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0px 10%;
+     object-position: 0px 10%;
+}
+
+.viewmore {
+  background-color: #2871FF;
+}
+
+.headerNumber {
+  color: #E3E3E3;
+}
+
+.packageBox {
+  height: 600px;
+}
+
+.card-image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0px 0%;
+     object-position: 0px 0%;
+}
+
+.card-btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.input-group .form-control {
+  background-color: transparent;
+  color: white;
+}
+
+.input-group .form-control::-moz-placeholder {
+  color: white;
+  opacity: 1; /* Override default opacity */
+}
+
+.input-group .form-control::placeholder {
+  color: white;
+  opacity: 1; /* Override default opacity */
+}
+
+.input-group .btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 1;
+  border-bottom-right-radius: 1;
+  background-color: #fd7e14;
+}
+
+.bg-dark-blue {
+  background-color: #031633 !important;
+}
+
+.card-input-group {
+  max-width: 37.5rem;
 }
 
 .work-detail-image {

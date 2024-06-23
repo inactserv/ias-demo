@@ -90,5 +90,10 @@
     border-bottom-left-radius: 0;
     border-top-right-radius: 1;
     border-bottom-right-radius: 1;
+    min-height: 3.5rem;
     background-color: $orange;
+}
+
+.card-input-group {
+    max-width: 37.5rem;
 }
