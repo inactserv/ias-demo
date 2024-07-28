@@ -12322,16 +12322,17 @@ body, html {
   color: #fff !important;
 }
 
-.search {
+.home-search {
   background-color: transparent;
+  border-radius: 100px;
 }
-.search ::-moz-placeholder {
+.home-search ::-moz-placeholder {
   color: #fff !important;
 }
-.search ::placeholder {
+.home-search ::placeholder {
   color: #fff !important;
 }
-.search :focus {
+.home-search :focus {
   background-color: transparent;
   color: #fff;
 }
